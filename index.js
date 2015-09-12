@@ -58,7 +58,7 @@ var copletedFridayPrep = null;
 * which can be found along the west coast of The United States.
 **/
 
-var west_coast = ["Washington","Oregon","California"];
+var west_coast = ["Washington", "Oregon", "California"];
 
 /**
 * #5b
@@ -68,12 +68,15 @@ var west_coast = ["Washington","Oregon","California"];
 * are considered 'even values'. Have at least ten even values in this array
 **/
 
-var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
 
 
 /**
 * #6a Arithmetic
 */
+var rando = 10 + 2/1 - 5*1
+
+
 
 
 
@@ -81,12 +84,21 @@ var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 * #6b Comparisons & Logic
 */
 
+6<5
+
+1 != true
+
+1 !== true
+
+1 < true || 2
 
 
 /**
 * #6c Assignments
 */
 
+var numero=10
+numero+=10
 
 
 /**
@@ -101,6 +113,11 @@ var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 * store the return value to a variable and use console.log to inspect the value which was passed back by your function
 **/
 
+function jump(height){
+	var jumpHeight = height;
+	console.log (jumpHeight);
+	return "You Jumped " + height + " feet high!";
+}
 
 
 /**
@@ -112,8 +129,9 @@ var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 * this function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
-
+function cook (ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + " !"
+}
 
 /**
 * #7c
