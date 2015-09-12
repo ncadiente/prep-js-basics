@@ -30,10 +30,10 @@ var that_one_prince_song = 1999;
 * declare variables named `isDaytime`, `isLeftHanded`, `inHawaii`, and `isHappyCoding`
 * Their values should be a Boolean
 **/
-var isDaytime=false;
-var isLeftHanded=true;
-var inHawaii=true;
-var isHappyCoding=true;
+var isDaytime = false;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
 
 
 /**
@@ -43,8 +43,8 @@ var isHappyCoding=true;
 * declare variables named `enrolledAtDevLeague` and `completedFridayPrep`
 * Their values should be a Null value
 **/
-var enrolledAtDevLeague=null;
-var copletedFridayPrep=null;
+var enrolledAtDevLeague = null;
+var copletedFridayPrep = null;
 
 /**
 * #5a
@@ -53,7 +53,7 @@ var copletedFridayPrep=null;
 * declare a variable named `west_coast` which is an Array. This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-var west_coast=["Washington","Oregon","California"];
+var west_coast = ["Washington","Oregon","California"];
 
 /**
 * #5b
@@ -62,7 +62,7 @@ var west_coast=["Washington","Oregon","California"];
 * declare a variable named `even numbers` which is an Array. This Array contains numbers that
 * are considered 'even values'. Have at least ten even values in this array
 **/
-var evenNumbers=[2,4,6,8,10,12,14,16,18,20];
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 
 
 /**
